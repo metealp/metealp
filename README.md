@@ -1,44 +1,7 @@
 <!-- NOT_IN_TIME_V2.md -->
 
-<style>
-.poem-container {
-  font-family: 'Courier New', monospace;
-  background-color: #0d1117;
-  color: #c9d1d9;
-  padding: 2em;
-  border-radius: 8px;
-  line-height: 1.8;
-  white-space: pre-wrap;
-  animation: fadeIn 2s ease-in-out;
-  max-width: 700px;
-  margin: auto;
-  box-shadow: 0 0 20px rgba(0,255,255,0.1);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.poem-title {
-  color: #58a6ff;
-  font-weight: bold;
-  font-size: 1.8em;
-  text-align: center;
-  margin-bottom: 0.2em;
-}
-
-.poem-subtitle {
-  color: #8b949e;
-  font-style: italic;
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-</style>
-
-<div class="poem-container">
-  <div class="poem-title">NOT IN TIME.V2</div>
+<div class="poem-container" style="font-family: 'Courier New', monospace; background-color: #0d1117; color: #c9d1d9; padding: 2em; border-radius: 8px; line-height: 1.8; white-space: pre-wrap; animation: fadeIn 2s ease-in-out; max-width: 700px; margin: auto; box-shadow: 0 0 20px rgba(0,255,255,0.1);">
+  <div class="poem-title" style="color: #58a6ff; font-weight: bold; font-size: 1.8em; text-align: center; margin-bottom: 0.2em;">NOT IN TIME.V2</div>
 
   <div class="stanza">
     I'm not in time,
@@ -81,5 +44,5 @@
     Unindexed in the mainframe,
     And even Google passed me by.  
   </div>
-  <div class="poem-subtitle">(inspired by Ahmet Hamdi Tanpınar, rewritten by a guy who lives on GitHub and can be contacted with <a href="mailto:kizilcaymetealp@gmail.com">an email</a>)</div>
+  <div class="poem-subtitle" style="color: #8b949e; font-style: italic; text-align: center; margin-bottom: 1em;">(inspired by Ahmet Hamdi Tanpınar, rewritten by a guy who lives on GitHub and can be contacted with <a href="mailto:kizilcaymetealp@gmail.com">an email</a>)</div>
 </div>
